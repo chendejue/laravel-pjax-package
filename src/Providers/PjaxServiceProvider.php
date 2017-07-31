@@ -15,14 +15,14 @@ class PjaxServiceProvider extends ServiceProvider
     public function boot()
     {
         //load views
-        $this->loadViewsFrom(__DIR__.'\..\Views','pjax');
+        $this->loadViewsFrom(__DIR__.'/../Views','pjax');
         //publish views
         $this->publishes([
-            __DIR__.'\..\Views' => base_path('resources/views/vendor/pjax-head'),
+            __DIR__.'/../Views' => base_path('resources/views/vendor/pjax-head'),
         ]);
         //publis configs
         $this->publishes([
-            __DIR__ . '\..\Config/pjax.php' => config_path('pjax.php'),
+            __DIR__ . '/../Config/pjax.php' => config_path('pjax.php'),
         ]);
     }
 
