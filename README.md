@@ -1,6 +1,7 @@
 # laravel-pjax-package
 a pjax package for laravel5, include pjax and nprogress
 
+导入后修改了一个BUG,这个导致一直会出错的原因
 
 一个基于 laravel 5 的 pjax 扩展包 , 本项目基于 NProgress [传送门](https://github.com/rstacruz/nprogress) 和 Pjax.
 
